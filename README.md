@@ -66,4 +66,29 @@
 
  ### HTML
 
+- O arquivo HTML deve seguir a estrutura báse de toda página
+- Ao construir uma parte da página, exceto header e footer, deverá usar a seguinte estrutura.
+
+ ```html
+ <section class="NOME_DA_SEÇÃO">
+   <div class="customContainer">
+      <!-- CÓDIGO DA SEÇÃO --> 
+   </div>
+ </section>
+ 
+ ```
+
  ### CSS
+
+ - O arquivo deve respeitar o a ordem das tags HTML
+ - No inicio do arquivo deve ter as configurações gerais
+
+ ```css
+ *{
+   /* Código */
+ }
+ :root{
+   /* variáveis */
+ }
+ /* outras classes gerais */
+ ```
