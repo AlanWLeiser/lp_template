@@ -21,16 +21,21 @@
     <div class="limiter-wrapper">
         <header class="header-container">
             <div class="header-title">
-                <h1>Nome do seu site!</h1>
+                <h1>website name</h1>
             </div>
         </header>
         <section class="banner-container">
             <div class="customContainer-banner">
                 <div class="banner-conteudo">
-                    <h2>Titulo!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare lacus non tempus luctus.
-                    </p>
-                    <button type="submit" class="banner-btn">Inscreva-se</button>
+                    <div class="bannerConteudo-texto">
+                        <h2>Title</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare lacus non tempus
+                            luctus.
+                        </p>
+                    </div>
+                    <div class="bannerConteudo-btn">
+                        <button type="submit" class="banner-btn">Inscreva-se!</button>
+                    </div>
                 </div>
                 <div class="banner-img">
                     <img src="imgs/banner-img.png">
@@ -39,46 +44,46 @@
         </section>
         <section class="descricao-container">
             <div class="customContainer-descricao">
-                <div class="card" style="width: 18rem;">
+                <div id="card-descricao" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <ion-icon name="alarm-outline"></ion-icon>
-                        <h2 class="card-title">Seu Título</h2>
+                        <h2 class="card-title">Title</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div id="card-descricao" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <ion-icon name="alarm-outline"></ion-icon>
-                        <h2 class="card-title">Seu Título</h2>
+                        <h2 class="card-title">Title</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div id="card-descricao" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <ion-icon name="alarm-outline"></ion-icon>
-                        <h2 class="card-title">Seu Título</h2>
+                        <h2 class="card-title">Title</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div id="card-descricao" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <ion-icon name="alarm-outline"></ion-icon>
-                        <h2 class="card-title">Seu Título</h2>
+                        <h2 class="card-title">Title</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div id="card-descricao" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <ion-icon name="alarm-outline"></ion-icon>
-                        <h2 class="card-title">Seu Título</h2>
+                        <h2 class="card-title">Title</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
@@ -88,65 +93,68 @@
         </section>
         <section class="modulos-container">
             <div class="customContainer-modulos">
-                <div id="carouselExample" class="carousel slide">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="10000">
                             <div class="card" style="width: 20rem;">
-                                <img src="imgs/cards-img.png" class="card-img-top">
-                                <div class="card-body">
+                                <img src="imgs/card-img.webp" class="card-img-top">
+                                <div id="card-body-modulos" class="card-body">
                                     <h5 id="card-modulos-title" class="card-title">Título aqui</h5>
-                                    <p class="card-text">Some quick example text to build on the Título aqui and make up
+                                    <p id="card-text-modulos" class="card-text">Some quick example text to build on the
+                                        Título aqui and make up
                                         the bulk of the card's content.</p>
                                 </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Paulo Silveira</h5>
+                                <p>Host</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="card" style="width: 20rem;">
+                                <img src="imgs/card-img.webp" class="card-img-top">
+                                <div id="card-body-modulos" class="card-body">
+                                    <h5 id="card-modulos-title" class="card-title">Título aqui</h5>
+                                    <p id="card-text-modulos" class="card-text">Some quick example text to build on the
+                                        Título aqui and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Paulo Silveira</h5>
+                                <p>Host</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card" style="width: 20rem;">
-                                <img src="imgs/cards-img.png" class="card-img-top">
-                                <div class="card-body">
+                                <img src="imgs/card-img.webp" class="card-img-top">
+                                <div id="card-body-modulos" class="card-body">
                                     <h5 id="card-modulos-title" class="card-title">Título aqui</h5>
-                                    <p class="card-text">Some quick example text to build on the Título aqui and make up
+                                    <p id="card-text-modulos" class="card-text">Some quick example text to build on the
+                                        Título aqui and make up
                                         the bulk of the card's content.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card" style="width: 20rem;">
-                                <img src="imgs/cards-img.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 id="card-modulos-title" class="card-title">Título aqui</h5>
-                                    <p class="card-text">Some quick example text to build on the Título aqui and make up
-                                        the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card" style="width: 20rem;">
-                                <img src="imgs/cards-img.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 id="card-modulos-title" class="card-title">Título aqui</h5>
-                                    <p class="card-text">Some quick example text to build on the Título aqui and make up
-                                        the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card" style="width: 20rem;">
-                                <img src="imgs/cards-img.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 id="card-modulos-title" class="card-title">Título aqui</h5>
-                                    <p class="card-text">Some quick example text to build on the Título aqui and make up
-                                        the bulk of the card's content.</p>
-                                </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Paulo Silveira</h5>
+                                <p>Host</p>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
